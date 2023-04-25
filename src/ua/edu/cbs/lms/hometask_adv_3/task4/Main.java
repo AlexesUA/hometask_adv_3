@@ -10,7 +10,7 @@ public class Main {
         do {
             System.out.print("Enter line for added to logg file (enter \"quit\" for finish): ");
             String addedLine = scInput.nextLine();
-            if(addedLine.toLowerCase().equals("quit")) break;
+            if(addedLine.equalsIgnoreCase("quit")) break;
             logging.addLineInFile(addedLine);
 
             System.out.println("\n\nFile content:");

@@ -11,7 +11,7 @@ public class LoggingInput {
             "/src/ua/edu/cbs/lms/hometask_adv_3/task4/logfile.txt";
 
     public void addLineInFile(String line){
-        fileWriter(line, true);
+        fileWriter(line + "\n", true);
     }
 
     public void printFile(){
